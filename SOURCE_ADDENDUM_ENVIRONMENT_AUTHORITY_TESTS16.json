@@ -1,0 +1,106 @@
+{
+  "schema": "casimirbot.server_tests_environment_authority_addendum.v1",
+  "sourceCommit": "0bc3c8fe23f24e8f5b72d4a40140b7b16a2146e3",
+  "basePublicCommit": "946d30dd9f643edbb8234b911a69b98a46189df4",
+  "selectionRule": "The exact four server/db/migrations/__tests__/ and 12 server/services/environment-connectors/ paths in the 132-file additionallyHeldPaths list; previously held by a broad auth/account/session path-name filter.",
+  "selectedFiles": 16,
+  "sourceBytes": 118014,
+  "files": [
+    {
+      "path": "server/db/migrations/__tests__/040_environment_probe_execution_authority.spec.ts",
+      "sourceGitBlob": "42e94652bd6cb02170f6fc9cdd9129dea3c36021",
+      "sha256": "1b6cf28a04a042a1069ac8a0150f40df25906fa75f1d76182433550b9ae4a1bf",
+      "bytes": 1874
+    },
+    {
+      "path": "server/db/migrations/__tests__/043_environment_command_authority.spec.ts",
+      "sourceGitBlob": "43acc43c24e0dac5ab889ccef50da59740babf61",
+      "sha256": "4efabca9869100c916f5ef705873ead9a86d523fd750aaf6056601bff089274d",
+      "bytes": 8545
+    },
+    {
+      "path": "server/db/migrations/__tests__/058_environment_interaction_credentials.spec.ts",
+      "sourceGitBlob": "6abff701b3ccc376166e981f41d50bc8f0a9513b",
+      "sha256": "82ca743f1be6e58f3cfbb539082d0c741ec68890a4a401ba0a258a94f4088bd8",
+      "bytes": 3559
+    },
+    {
+      "path": "server/db/migrations/__tests__/070_installed_security_devices.spec.ts",
+      "sourceGitBlob": "9088296ec331988d1a55ffe4823ce867147a9259",
+      "sha256": "7e56d157dccfafcbc99cce8729a919fb3b0bfaf1cc248d13bc60038b38b7a415",
+      "bytes": 1440
+    },
+    {
+      "path": "server/services/environment-connectors/__tests__/credential-use-throttle.test.ts",
+      "sourceGitBlob": "30c3b6cdd614fdd8140ce0ce8d0f8a401e917ce9",
+      "sha256": "ce0a32992b51213171c552033de7e31729a78b3482d5eab0dd7950df46559770",
+      "bytes": 1467
+    },
+    {
+      "path": "server/services/environment-connectors/actions/__tests__/authority-lease-extension.test.ts",
+      "sourceGitBlob": "a29b6018f75e6b07472cdd53be11782ed12e056a",
+      "sha256": "4632efbc5979fdbb0a096d86c0ee3dc0b6e65ca9707bbcf2c83d1bb3182fb574",
+      "bytes": 5721
+    },
+    {
+      "path": "server/services/environment-connectors/actions/__tests__/authority-supersession.test.ts",
+      "sourceGitBlob": "00e3689c82003d71b3ea0652dbd96d9a9c5f1249",
+      "sha256": "228c150c9802cad55cb0c4458ed4497ebba392594067c295bb78463e64585c32",
+      "bytes": 5098
+    },
+    {
+      "path": "server/services/environment-connectors/commands/__tests__/authority-policy.test.ts",
+      "sourceGitBlob": "8acee845766c6244af5c55878bdf87a464143ad3",
+      "sha256": "8fabc1c7d492ced1ed826c0cb559721d2381308b059a72d4fac21adeed7291ab",
+      "bytes": 7097
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/bound-session-evidence.test.ts",
+      "sourceGitBlob": "e5f49b844a3596c36e4e6ec5cf295e4a3ec7c130",
+      "sha256": "abf4069e9aecb9ee7b4e3879c6a17b17cd0e4b80233361acaca908e6a22ffb45",
+      "bytes": 4235
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/preparation-error.test.ts",
+      "sourceGitBlob": "aea26714d864cd1a89b82a5107e6516915b06f5e",
+      "sha256": "73199ee69b9b739a6996f0f5789a89180858860437832f4bfa8fd9f6aa35ebb2",
+      "bytes": 3602
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/preparation-intent-store.test.ts",
+      "sourceGitBlob": "60846a9340f4fb8eec49d7025e8f481202cdad1a",
+      "sha256": "b8a6892692f695a445ad24d6820f8f13deb80e09a3e1fba6cc661555db0a38e5",
+      "bytes": 10679
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/prepare-browser-session.test.ts",
+      "sourceGitBlob": "e43dbe4958a6921b9ecccfa299236a1362ec98eb",
+      "sha256": "783890fd71648b004703b3ef10267cfe631bed4f7c8352ffb06da9bc775c2185",
+      "bytes": 27717
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/ready-up-session.test.ts",
+      "sourceGitBlob": "68d6e22ff8e85650b9156aa8b5b49ec456737b8a",
+      "sha256": "096e7b5de8d6ac53d546bc757cf35e6b2d81b35f7a1d5e5393c27568d6521cea",
+      "bytes": 6957
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/recover-session-goal.test.ts",
+      "sourceGitBlob": "0d562dce5f09274fe653cb44a78910e7b687ac64",
+      "sha256": "ae1395fa8bf885b661da883fd7d15f50f5744596b94aa7e1c9870dfe2670d663",
+      "bytes": 11323
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/recovery-perception.test.ts",
+      "sourceGitBlob": "4edfc4a4107f5076f710c928dfda2085aac855a3",
+      "sha256": "cb359ed3f87271a44e4155474e213073f695daadf3f6476b387cee4b2eb82092",
+      "bytes": 2730
+    },
+    {
+      "path": "server/services/environment-connectors/session/__tests__/session-readiness.test.ts",
+      "sourceGitBlob": "6ae4764f8cced7c0a07bad6f4085336e916288a7",
+      "sha256": "4618c873e61ea9cc120dfb8a42ded90325c40de0d267230b6d9fa41fc6eb1a01",
+      "bytes": 15970
+    }
+  ]
+}
