@@ -1,0 +1,112 @@
+{
+  "schema": "casimirbot.server_tests_held_helix_ask_source_addendum.v1",
+  "sourceCommit": "0bc3c8fe23f24e8f5b72d4a40140b7b16a2146e3",
+  "basePublicCommit": "65eeb86dc5196da7ef533a5fa1b7118681981127",
+  "selectionRule": "The exact 17 server/__tests__/helix.ask.* paths in the 132-file additionallyHeldPaths list; these were held by the broad auth/account/session path-name rule and are reviewed separately.",
+  "selectedFiles": 17,
+  "sourceBytes": 725518,
+  "files": [
+    {
+      "path": "server/__tests__/helix.ask.codex-parity-g0-authority-inventory.test.ts",
+      "sourceGitBlob": "7d37c0723616f2a731e3d04e7ca0e31b7cfc6c75",
+      "sha256": "2d02519126631a5bcf01edb7b64a9e200931a8d21dafdb71a38bfea4a7a2df89",
+      "bytes": 3005
+    },
+    {
+      "path": "server/__tests__/helix.ask.live-source-terminal-authority.test.ts",
+      "sourceGitBlob": "5f666599d89cda61450030df16a98f8be37d5a33",
+      "sha256": "80bdea3dd2db42ea0643d00b0a9e6070cc07ebefb2cf8f88bb3b7cde39536c4a",
+      "bytes": 6895
+    },
+    {
+      "path": "server/__tests__/helix.ask.model-authored-terminal-invariant.test.ts",
+      "sourceGitBlob": "be277a18319d23c1e8cf7c59bd2375bb49e24f66",
+      "sha256": "ece26539355a7f557d9b8176add14539e804f716f8d7e8c25c1ddbf948135a0c",
+      "bytes": 4002
+    },
+    {
+      "path": "server/__tests__/helix.ask.post-tool-authority-bridge.test.ts",
+      "sourceGitBlob": "49a88c0e4520e0aaa631658cd080655fc10cf555",
+      "sha256": "6d87e53e7850c1ae803028b9549116ee5cf86044b7eb561e62f32780465ec07f",
+      "bytes": 29125
+    },
+    {
+      "path": "server/__tests__/helix.ask.rolling-session-context.test.ts",
+      "sourceGitBlob": "b2dfbda8367301dd60e98302caee6fd70b798cb4",
+      "sha256": "d76da0c6fa3ba2e42056a40d798e746af088f4842cf7004fc1521995ba61309b",
+      "bytes": 9615
+    },
+    {
+      "path": "server/__tests__/helix.ask.runtime-authority-audit-extraction-boundary.test.ts",
+      "sourceGitBlob": "a0a841ce4a58d894a1c3c2be2b689f202018d00d",
+      "sha256": "4b4bd3629d0767a20ecbfe73b0dba2d86771afb5c4c6fc54daca8a4ce4285af8",
+      "bytes": 1270
+    },
+    {
+      "path": "server/__tests__/helix.ask.runtime-authority-audit-reentry.test.ts",
+      "sourceGitBlob": "64a49deca0d4cc13dd73ba4cecbe185bd1cb9634",
+      "sha256": "6a9571f0623ebaa9c9c4f95058cf4a8d1dbeb1b76f43d7b96b09935dff94d317",
+      "bytes": 2678
+    },
+    {
+      "path": "server/__tests__/helix.ask.runtime-authority-contract.test.ts",
+      "sourceGitBlob": "f7625237f7e22eb13cba878d97c31cb29ebc84fe",
+      "sha256": "f4136de4dbd338c5f48ead9e0c07930814426685918b09855a3b000f4beba671",
+      "bytes": 113898
+    },
+    {
+      "path": "server/__tests__/helix.ask.runtime-reentry-authority.test.ts",
+      "sourceGitBlob": "1e11b7c1c0a0190dc6914ddaa93b3c8f43e318e7",
+      "sha256": "59a34232a171f0f8446ede279e2945fd096fa4dffe6607064f264578c49d7661",
+      "bytes": 10277
+    },
+    {
+      "path": "server/__tests__/helix.ask.scholarly-terminal-authority-refresh-extraction-boundary.test.ts",
+      "sourceGitBlob": "fd4da4b25ddadfe440969ecc01de015ec5aa5dc8",
+      "sha256": "ed5b59b3d76d6e98649ea453ca5f57c18bff87d585d35052edde6a6dc39d0ed0",
+      "bytes": 1429
+    },
+    {
+      "path": "server/__tests__/helix.ask.terminal-authority-contracts.test.ts",
+      "sourceGitBlob": "f677a0e84f2df7e18def3482fc319342a3c9d72a",
+      "sha256": "8eee5069868f36b96788be9a9d0c76126db15a81c6d43f0f622ab81d606b4bf4",
+      "bytes": 60589
+    },
+    {
+      "path": "server/__tests__/helix.ask.terminal-authority-enforcer.test.ts",
+      "sourceGitBlob": "1fc91b8ca1875fd84686a3f079721dd5aaf92293",
+      "sha256": "c853d4ac1633ca13a07cc996005efcca8c12dcf8a738df925c561d85b6623108",
+      "bytes": 3768
+    },
+    {
+      "path": "server/__tests__/helix.ask.terminal-authority-single-writer.test.ts",
+      "sourceGitBlob": "84149db0e3239a2445af1fa38fb3d83a6f0f7a2f",
+      "sha256": "0deba3a409c341152244b3f0142e253ae9dff5756d81cc325c3a750678481ced",
+      "bytes": 414901
+    },
+    {
+      "path": "server/__tests__/helix.ask.turn-lifecycle-solver-authority.test.ts",
+      "sourceGitBlob": "541118e924f3c51fbdcbb8e5f8459af4f51bed28",
+      "sha256": "a737f45116d4c4b75d54b2c060e0c11daaf419323faf20d2fcf2dee84ccde5cc",
+      "bytes": 47658
+    },
+    {
+      "path": "server/__tests__/helix.ask.turn.e9.1.policy-authority.test.ts",
+      "sourceGitBlob": "91ff9a246a7f330408626b1d1dca01723def9b52",
+      "sha256": "98bdb8fe56702c87a7ae43f0d4ea871e05df3c832748e757b1590cd89a0faec1",
+      "bytes": 3422
+    },
+    {
+      "path": "server/__tests__/helix.ask.turn.minecraft-situation-session-routing.test.ts",
+      "sourceGitBlob": "c13a99f373ade6e2227c784969e0992c7098ad12",
+      "sha256": "472aa974b690750a0ccca018bd1e46b5c8a923350133e92b356d0f43ad027583",
+      "bytes": 9441
+    },
+    {
+      "path": "server/__tests__/helix.ask.workstation-panel-tool-authority.test.ts",
+      "sourceGitBlob": "ce5f8e1e40b68cee4606db4d841873444f7c53b6",
+      "sha256": "535715459714fc7b263717bffc69312e8d9b2fc22494763c77c63f3f34db0f7d",
+      "bytes": 3545
+    }
+  ]
+}
