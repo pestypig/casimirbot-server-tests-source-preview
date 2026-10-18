@@ -1,6 +1,6 @@
 {
   "schema": "casimirbot.server_tests_session_url_held_source_candidate.v1",
-  "status": "private-technical-selection-rights-pending",
+  "status": "reviewed-source-only-snapshot",
   "sourceCommit": "0bc3c8fe23f24e8f5b72d4a40140b7b16a2146e3",
   "parentManifestSha256": "68ef13eb3c9d714c975caa59eae979ab52bf4a22c2b2267100b173ff221836fc",
   "selectionRule": "From the 1,372-file auth-held server-test selection, additionally hold exact files containing a sessionized scholarly URL with a jsessionid path parameter until provenance is resolved.",
