@@ -1,0 +1,45 @@
+{
+  "schema": "casimirbot.server_tests_synthetic_session_url_addendum.v1",
+  "sourceCommit": "0bc3c8fe23f24e8f5b72d4a40140b7b16a2146e3",
+  "basePublicCommit": "e72571a13991c408d98eedd7887c40177d2bccf2",
+  "transformation": "Replace only the session parameter value in the exact scholarly article URL with the explicit synthetic-session-id fixture; preserve the URL path, jsessionid key, all surrounding source, and test assertions.",
+  "selectedFiles": 4,
+  "files": [
+    {
+      "path": "server/services/helix-ask/__tests__/agent-provider-selection.test.ts",
+      "sourceGitBlob": "fb4c2816cb10372313fe2bea123f151bc8d16010",
+      "sourceSha256": "3c303542b57e0300f648df662848ff67b14b1850a8b291815d4c78c7e400bc61",
+      "sourceBytes": 355356,
+      "publishedSha256": "f9b899962dae2e542185efd24510202cf437341a7c85e5a7dada77f0b7e6761b",
+      "publishedBytes": 355350,
+      "sessionUrlReplacements": 1
+    },
+    {
+      "path": "server/services/helix-ask/__tests__/scholarly-research-intent.test.ts",
+      "sourceGitBlob": "329301b4db5662e0d1dd0ecd5ede458f39bdfd67",
+      "sourceSha256": "e776837c552b4d8b06d974bd62a999a888d0a9662673864b79adac4e2250f672",
+      "sourceBytes": 23204,
+      "publishedSha256": "6098308210640d7873bdd9c4b5090006014724651fa673b0cb5467bd5d2f419c",
+      "publishedBytes": 23198,
+      "sessionUrlReplacements": 1
+    },
+    {
+      "path": "server/services/helix-ask/agent-providers/__tests__/explicit-workstation-gateway.test.ts",
+      "sourceGitBlob": "0d90eac9b65f2e5e94915df6669c5b24c5b74593",
+      "sourceSha256": "71bd71442c2fa8cdba94a52209fcdd92eea2e115b0970955dedc142c01104fb0",
+      "sourceBytes": 251749,
+      "publishedSha256": "7c54eb6dd38749507d87d95e19d23996ac6323169a4a973cc3ef322f56a2713f",
+      "publishedBytes": 251737,
+      "sessionUrlReplacements": 2
+    },
+    {
+      "path": "server/services/helix-ask/agent-providers/__tests__/tool-enactment-adversarial-matrix.test.ts",
+      "sourceGitBlob": "98654e0b8123c70c73f617d397056bea62d23c04",
+      "sourceSha256": "f76d87c686c3f289cb10310f8876d6bdd2a8aa7079fc3221bd1e905cdfa5ec2d",
+      "sourceBytes": 7993,
+      "publishedSha256": "129c614c8078b85a6e338dac2a56be02aa8df019c476b60bd3f5473e30b0e333",
+      "publishedBytes": 7981,
+      "sessionUrlReplacements": 2
+    }
+  ]
+}
