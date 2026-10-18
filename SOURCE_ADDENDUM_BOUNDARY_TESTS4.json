@@ -1,0 +1,34 @@
+{
+  "schema": "casimirbot.server_tests_boundary_addendum.v1",
+  "sourceCommit": "0bc3c8fe23f24e8f5b72d4a40140b7b16a2146e3",
+  "basePublicCommit": "db081605a999f19c7dbd346fd7dc33f66e98eece",
+  "selectionRule": "The four exact synthetic-boundary tests named in the files array, selected from the private 99-file auth/account/session path-name hold after separate fixture and authority review.",
+  "selectedFiles": 4,
+  "sourceBytes": 6513,
+  "files": [
+    {
+      "path": "server/__tests__/minecraft-session-actor-binding.test.ts",
+      "sourceGitBlob": "d6ba530312273c183cc1d73ca526ffe730131e50",
+      "sha256": "60d705a621ff06b22562bdb7cb55908fe8966e520129e4777f4ecca4af6b1b0e",
+      "bytes": 1525
+    },
+    {
+      "path": "server/__tests__/stage-play-raw-session-buffer-store.test.ts",
+      "sourceGitBlob": "55d92dada4b57ebac4fcc950aa7428cedfef6be8",
+      "sha256": "b143bf40c48bb620ef4a694fa5f82fac06fb2d9033df8ee2e6986efe0a2442a1",
+      "bytes": 2995
+    },
+    {
+      "path": "server/security/__tests__/hull-guard.test.ts",
+      "sourceGitBlob": "5d105b39d9273def1930fa8212dfa192f54d3910",
+      "sha256": "a3a1e2fff02e7c87ededdbf82a1ac176e2c5ee9f23a5661c4bb5c4561d016f27",
+      "bytes": 970
+    },
+    {
+      "path": "server/services/solar-research/__tests__/jsoc-session-connection.test.ts",
+      "sourceGitBlob": "97a30250c9e1b54274d586300c129ff8583579f1",
+      "sha256": "9f1f0e242defe9dc9bfd3993f5947e82fce7c85f4e56cd3000ce9997a2f46a20",
+      "bytes": 1023
+    }
+  ]
+}
