@@ -1,0 +1,58 @@
+{
+  "schema": "casimirbot.server_tests_grounding_addendum.v1",
+  "sourceCommit": "0bc3c8fe23f24e8f5b72d4a40140b7b16a2146e3",
+  "basePublicCommit": "c9d3ad051351b81c5d7d7792473f4842118c3121",
+  "selectionRule": "The eight exact grounding, evidence-closure, source-binding, and session-summary tests named in the files array; the production-style Ask router legacy-binding test from the nine-file private triage remains held.",
+  "selectedFiles": 8,
+  "sourceBytes": 100254,
+  "files": [
+    {
+      "path": "server/services/helix-ask/__tests__/terminal-authority-image-lens-receipt.test.ts",
+      "sourceGitBlob": "33e1a21d54ecffb930b4ad347e28b4a7f0ff0e5b",
+      "sha256": "905967351e90ed37b1bb63ce005dd7eda91f213810d200c93ae0339dd9df6ae9",
+      "bytes": 19087
+    },
+    {
+      "path": "server/services/helix-ask/__tests__/terminal-grounding-authority.test.ts",
+      "sourceGitBlob": "3b981bd893e0e8e85474917926900646c48d958d",
+      "sha256": "3d52757f944c122a9465b6f5f635da6528a2f7049267e7ee1de977209df8858c",
+      "bytes": 18784
+    },
+    {
+      "path": "server/services/helix-ask/capability-lanes/__tests__/session-summary.test.ts",
+      "sourceGitBlob": "59ce4857a6be70c1f1d28a3913501290de90065b",
+      "sha256": "128be39a1df462554c5c29b6212fc6e597c40a6f17782b637c03320e2e2d13dc",
+      "bytes": 29495
+    },
+    {
+      "path": "server/services/helix-ask/realtime-session/__tests__/context-pack.test.ts",
+      "sourceGitBlob": "27cab2faa6952979b39e5ef28885e014bb587643",
+      "sha256": "1aa58362f22c095f918e144ffb5499008e607933a3b58081ba390ad2118f2992",
+      "bytes": 8860
+    },
+    {
+      "path": "server/services/helix-ask/realtime-session/__tests__/grounded-answer-final-response-capture.test.ts",
+      "sourceGitBlob": "64922c29ea3216b0fe244ff8ff014a352b34ed5d",
+      "sha256": "6eb5537b4da550094020a50e75b616b811669d43a3f487ba6165f0db2cecc22e",
+      "bytes": 1245
+    },
+    {
+      "path": "server/services/helix-ask/realtime-session/__tests__/provisional-response.test.ts",
+      "sourceGitBlob": "e3da4ab9afde66324c225b1666a294a518489747",
+      "sha256": "4f554cb1b6b3aecafd35a2b576c1df6a67775c5b9766fa8124ac8bf32013eb40",
+      "bytes": 11816
+    },
+    {
+      "path": "server/services/helix-ask/realtime-session/__tests__/scientific-evidence-closure-grounding.test.ts",
+      "sourceGitBlob": "f9c5f28848dcd32914d5d59b7c8211a8716c508d",
+      "sha256": "67488e9430e0c8746270f6c470db04cb6b3576ae62dc0771549ba5c0541ff74c",
+      "bytes": 8904
+    },
+    {
+      "path": "server/services/helix-ask/realtime-session/__tests__/source-binding.test.ts",
+      "sourceGitBlob": "b81109a0bf48c4db8eb9ea33e52b0fba1959ef97",
+      "sha256": "e3c1e76b6a5fdb34f07b8adbf1cdf12a8dafc0259f035da2736013d3bdc30851",
+      "bytes": 2063
+    }
+  ]
+}
